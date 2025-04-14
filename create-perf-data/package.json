@@ -1,0 +1,21 @@
+{
+  "name": "create-perf-data",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "start": "tsx ./main.ts",
+    "plot": "tsx ./plot.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.13.14",
+    "tsx": "^4.19.3"
+  },
+  "dependencies": {
+    "@tonejs/midi": "^2.0.28",
+    "nodeplotlib": "^1.1.2"
+  }
+}
